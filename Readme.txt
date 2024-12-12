@@ -1,5 +1,5 @@
 
-We provide the code used during simulations in the article:
+Code used during simulations in:
 
 Luna, R., Serrano-Pedraza, I., & Bertalmío, M. (2024). 
 Overcoming the limitations of motion sensor models by considering 
