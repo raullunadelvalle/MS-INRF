@@ -19,7 +19,7 @@ stdw = (  ( ( stdw*(size(Stim,1)/DegStim) ) )  );
 stdm = stdw/4;
 
 
-Nw = Nw*frStim;% transform Nw in seconds to frames
+Nw = Nw*frStim*Secs;% transform Nw in seconds to frames
 Nm = Nw;
 
 
