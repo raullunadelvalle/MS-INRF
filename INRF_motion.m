@@ -19,27 +19,20 @@ stdw = (  ( ( stdw*(size(Stim,1)/DegStim) ) )  );
 stdm = stdw/4;
 
 
+t = linspace(0,Nw*1000,Nw*frStim*Secs);
+
 Nw = Nw*frStim*Secs;% transform Nw in seconds to frames
 Nm = Nw;
 
 
 L = Stim;
 
-r=[1:Nm];
-r=r./Nm;
 
-t = linspace(0,20,length(r)); %
-
-k=1;
+k=0.4;
 n=5;
-
 Tm=(k*t).^n.*exp(-k*t).*(1/factorial(n) - (k*t).^2/factorial(n+2) );
 
-r=[1:Nw];
-r=r./Nw;
-
-
-Tw=cos(0.5*pi*r);
+Tw=cos(pi*(t+10)/120);
 
 
 x0 = round(size(L,1)/2);
