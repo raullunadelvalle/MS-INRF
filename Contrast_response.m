@@ -5,7 +5,7 @@ clc
 % Stimulus parameters
 dir = -1;
 t_frec = 4;
-s_frec = 2; %7 when LGN=1
+s_frec = 2; 
 speed = t_frec / s_frec;
 ctr1 = linspace(0,1,20); 
 ctr1(1) = 0.01;
