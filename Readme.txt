@@ -1,9 +1,8 @@
 
 Code used during simulations in:
 
-Luna, R., Serrano-Pedraza, I., & Bertalmío, M. (2024). 
-Overcoming the limitations of motion sensor models by considering 
-dendritic computations. 
+Luna, R., Serrano-Pedraza, I., & Bertalmío, M. (2025). Overcoming the limitations of motion sensor models by considering dendritic computations. 
+Scientific Reports, 15(1), 9213.
 
 
 
